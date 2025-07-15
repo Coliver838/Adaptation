@@ -14,6 +14,11 @@ ul {
   padding-right: 15px;
   margin: 0 auto;
 }
+@media (min-width: 768px) {
+  .container {
+    width: 470px;
+  }
+}
 
 .friends {
   padding-top: 60px;
@@ -68,4 +73,14 @@ ul {
   border-radius: 30px;
   background-color: transparent;
   color: #ff4e50;
+}
+
+@media (min-width: 768px) {
+  .friend-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 53px;
+    grid-row-gap: 57px;
+  }
 }

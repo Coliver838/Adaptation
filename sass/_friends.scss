@@ -45,3 +45,12 @@
   background-color: transparent;
   color: #ff4e50;
 }
+.friend-list {
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 53px;
+    grid-row-gap: 57px;
+  }
+}
